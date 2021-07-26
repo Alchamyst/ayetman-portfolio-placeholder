@@ -1,7 +1,17 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.ashley-yetman.co.uk",
     title: "Ashley Yetman Portfolio",
   },
-  plugins: ["gatsby-plugin-gatsby-cloud"],
+  plugins: [
+      "gatsby-plugin-gatsby-cloud", 
+      "gatsby-plugin-react-helmet",
+      {
+        resolve: `gatsby-plugin-canonical-urls`,
+        options: {
+          siteUrl: `https://www.ashley-yetman.co.uk`,
+          stripQueryString: true,
+       }  
+      },
+    ]
 };
