@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 
-const metaKWs = [
+const metaKeywords = [
     "contact ashley yetman", 
     "get in touch with ashley yetman", 
     "email with ashley yetman", 
@@ -14,7 +14,7 @@ const metaKWs = [
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Contact Ashley" metaKWs={metaKWs}>
+    <Layout pageTitle="Contact Ashley" metaKWs={metaKeywords}>
       <p>Contact Form Coming Soon!</p>
     </Layout>
   )

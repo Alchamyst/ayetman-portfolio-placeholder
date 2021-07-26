@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 
-const Header = (metaKWs, { children }) => {
+const Header = (metaKeywords, { children }) => {
   return (
     <div>
         <Helmet>
-            <meta name="keywords" content={metaKWs} />
+            <meta name="keywords" content={metaKeywords} />
         </Helmet>
         {children}
     </div>

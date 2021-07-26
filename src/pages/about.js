@@ -1,14 +1,14 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 
-const metaKWs = [
+const metaKeywords = [
   "about ashley yetman", 
   "about alchamyst"
 ];
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me" metaKWs={metaKWs}>
+    <Layout pageTitle="About Me" metaKWs={metaKeywords}>
       <p>Hi there!</p>
     </Layout>
   )

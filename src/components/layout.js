@@ -4,14 +4,14 @@ import Header from './header';
 import Main from './main';
 import Navbar from './navbar';
 
-const Layout = ({ pageTitle, metaKWs = ["ashley yetman"], children }) => {
+const Layout = ({ pageTitle, metaKWs: metaKeywords = ["ashley yetman"], children }) => {
   return (
     <div>
-      <Header metaKWs={metaKWs.join(', ')}></Header>
+      <Header metaKeywords={metaKeywords.join(', ')}></Header>
       <Navbar></Navbar>
       <Main pageTitle={pageTitle}></Main>
-      <Footer></Footer>  
       {children}
+      <Footer></Footer>  
     </div>
   );
 };
