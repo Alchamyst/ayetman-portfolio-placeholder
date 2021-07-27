@@ -1,0 +1,6 @@
+.footer {
+    background-color: fuchsia;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 0.2em;
+}
