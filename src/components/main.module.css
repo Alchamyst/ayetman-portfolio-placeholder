@@ -1,0 +1,9 @@
+main {
+    background-color: maroon;
+    flex: 1 0 auto;
+    padding-bottom: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    vertical-align: text-top;
+}
