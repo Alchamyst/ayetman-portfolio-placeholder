@@ -1,0 +1,15 @@
+.navbar {
+    background-color: navy;
+    padding: 0.2em;
+    text-align: right;  
+}
+
+.navbar_items > li {
+    align-items: center;
+    display: inline;
+    padding-right: 0.5em;
+}
+
+.navbar_items a {
+    color:lime;
+}
