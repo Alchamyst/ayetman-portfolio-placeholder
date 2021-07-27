@@ -3,14 +3,14 @@ import Footer from './footer';
 import Header from './header';
 import Main from './main';
 import Navbar from './navbar';
+import * as style from './layout.module.css';
 
 const Layout = ({ pageTitle, metaKWs: metaKeywords = ["ashley yetman"], children }) => {
   return (
-    <div>
+    <div className={style.container}>
       <Header metaKeywords={metaKeywords.join(', ')}></Header>
       <Navbar></Navbar>
-      <Main pageTitle={pageTitle}></Main>
-      {children}
+      <Main pageTitle={pageTitle} children={children}></Main>
       <Footer></Footer>  
     </div>
   );
