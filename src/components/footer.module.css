@@ -4,3 +4,15 @@
     text-align: center;
     padding: 0.2em;
 }
+
+@media only screen and (max-width: 1920px) {
+    .footer  {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer  {
+        font-size: 0.75em;
+    }
+}
