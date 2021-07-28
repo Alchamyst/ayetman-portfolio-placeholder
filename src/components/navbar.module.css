@@ -4,15 +4,17 @@
 }
 
 .headerItem {
-    background-color:cyan;
+    /*background-color:cyan;*/
     flex-direction: row;
     flex-grow: 1;
     padding: 0.2em;
 }
 
 .navbar {
-    background-color: navy;
+    /* background-color: navy; */
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 .navbar_items > li {
@@ -22,13 +24,13 @@
 }
 
 .navbar_items a {
-    color:lime;
+    color:#505050;
     cursor: pointer;
     text-decoration: none;
 }
 
 .navbar_items a:hover{
-    color:blueviolet;
+    color:#400880;
     cursor: pointer;
     text-decoration: none;
 }
