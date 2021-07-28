@@ -1,15 +1,40 @@
+.headerContainer {
+    display: flex; 
+}
+
+.headerLeft {
+    background-color:cyan;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 0.2em;
+}
+
+.headerRight {
+    background-color:darkorange;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 2;
+    padding: 0.2em;
+}
+
 .navbar {
     background-color: navy;
-    padding: 0.2em;
-    text-align: right;  
+    
 }
 
 .navbar_items > li {
-    align-items: center;
     display: inline;
-    padding-right: 0.5em;
+    padding-right: 1em;
 }
 
 .navbar_items a {
     color:lime;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar_items a:hover{
+    color:blueviolet;
+    cursor: pointer;
+    text-decoration: none;
 }
