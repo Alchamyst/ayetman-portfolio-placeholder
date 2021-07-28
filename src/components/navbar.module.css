@@ -4,18 +4,22 @@
 }
 
 .headerItem {
-    /*background-color:cyan;*/
+    /* background-color:cyan; */
     flex-direction: row;
     flex-grow: 1;
     padding: 0.2em;
 }
 
 .navbar {
-    /* background-color: navy; */
+    /* background-color: lime; */
     text-align: center;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-weight: bold;
 }
+
+.navbar_items {
+    padding-inline-start: 0;
+} 
 
 .navbar_items > li {
     display: inline;
@@ -26,6 +30,7 @@
 .navbar_items a {
     color:#505050;
     cursor: pointer;
+    display:inline-block;
     text-decoration: none;
 }
 
