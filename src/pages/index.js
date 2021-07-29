@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Layout from '../components/layout';
-import profileImg from '../images/profile.jpg';
+import profileImg from '../images/profile.gif';
 
 const metaKeywords = [
   "ashley yetman", 
