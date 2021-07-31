@@ -11,7 +11,7 @@ const metaKeywords = [
 const IndexPage = () => {
   return (
     <div>
-      <Layout pageTitle="Home Page" metaKWs={metaKeywords}>
+      <Layout pageTitle="Home Page" metaKeywords={metaKeywords}>
         <img src={profileImg} height="15%" width="15%"alt="Ashley Yetman"/>
         <p>Hey, I'm Ashley yetman.</p>
         <br />

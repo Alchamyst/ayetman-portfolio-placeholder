@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import favicon from "../images/favicon.ico"
 import faviSvg from "../images/logo.svg"
 
-const Header = (metaKeywords, bNoIndex) => {
+const Header = ({ metaKeywords, bNoIndex}) => {
   return (
     <div>
         <Helmet>
