@@ -14,7 +14,7 @@ const metaKeywords = [
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Contact Ashley" metaKWs={metaKeywords}>
+    <Layout pageTitle="Contact Ashley" metaKeywords={metaKeywords}>
       <p>Contact Form Coming Soon!</p>
     </Layout>
   )
