@@ -3,10 +3,11 @@ import { Helmet } from 'react-helmet';
 import favicon from "../images/favicon.ico"
 import faviSvg from "../images/logo.svg"
 
-const Header = (metaKeywords) => {
+const Header = (metaKeywords, bNoIndex) => {
   return (
     <div>
         <Helmet>
+            {bNoIndex && <meta name="robots" content="noindex" />}
             <meta name="keywords" content={metaKeywords} />
             <link rel="icon" type="image/svg+xml" href={faviSvg} />
             <link rel="alternate icon" href={favicon} />
