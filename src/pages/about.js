@@ -8,7 +8,7 @@ const metaKeywords = [
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me" metaKWs={metaKeywords}>
+    <Layout pageTitle="About Me" metaKeywords={metaKeywords}>
       <p>Hi there!</p>
     </Layout>
   )
