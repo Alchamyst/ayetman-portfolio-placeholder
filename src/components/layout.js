@@ -5,10 +5,10 @@ import Main from './main';
 import Navbar from './navbar';
 import * as style from './layout.module.css';
 
-const Layout = ({ pageTitle, metaKeywords = ["ashley yetman"], bNavbar = true, bNoIndex = false, children }) => {
+const Layout = ({ pageTitle, metaDescription, metaKeywords, bNavbar = true, bNoIndex, children }) => {
   return (
     <div className={style.container}>
-      <Header metaKeywords={metaKeywords.join(', ')} bNoIndex={bNoIndex}></Header>
+      <Header pageTitle={pageTitle} metaKeywords={metaKeywords} metaDescription={metaDescription} bNoIndex={bNoIndex}></Header>
       {bNavbar && <Navbar></Navbar>}
       <Main pageTitle={pageTitle} children={children}></Main>
       <Footer></Footer>  

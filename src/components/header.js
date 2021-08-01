@@ -3,12 +3,18 @@ import { Helmet } from 'react-helmet';
 import favicon from "../images/favicon.ico"
 import faviSvg from "../images/logo.svg"
 
-const Header = ({ metaKeywords, bNoIndex}) => {
+const Header = ({ pageTitle = "Untitled", metaDescription = "Ashley Yetman's Portfolio", metaKeywords = ["ashley yetman"], bNoIndex = false}) => {
   return (
     <div>
-        <Helmet>
+        <Helmet
+          htmlAttributes={{
+            lang: 'en',
+          }}
+        >
             {bNoIndex && <meta name="robots" content="noindex" />}
-            <meta name="keywords" content={metaKeywords} />
+            <title>{pageTitle}</title>
+            <meta name="description" content={metaDescription} />
+            <meta name="keywords" content={metaKeywords.join(', ')} />
             <link rel="icon" type="image/svg+xml" href={faviSvg} />
             <link rel="alternate icon" href={favicon} />
             <link rel="shortcut icon" type="image/jpg" href={favicon}/>
