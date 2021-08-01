@@ -6,7 +6,11 @@ import faviSvg from "../images/logo.svg"
 const Header = ({ metaKeywords, bNoIndex}) => {
   return (
     <div>
-        <Helmet>
+        <Helmet
+          htmlAttributes={{
+            lang: 'en',
+          }}
+        >
             {bNoIndex && <meta name="robots" content="noindex" />}
             <meta name="keywords" content={metaKeywords} />
             <link rel="icon" type="image/svg+xml" href={faviSvg} />
