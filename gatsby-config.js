@@ -3,6 +3,7 @@ module.exports = {
     siteUrl: "https://www.ashley-yetman.co.uk",
     title: "Ashley Yetman Portfolio",
   },
+  pathPrefix: "/ayetman-portfolio",
   plugins: [
       "gatsby-plugin-gatsby-cloud", 
       "gatsby-plugin-react-helmet",
