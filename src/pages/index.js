@@ -10,15 +10,15 @@ const metaKeywords = [
 ];
 
 // Styles
-const titleStyle = {
-  'color':"#404040",
-  'font-size': "2em",
-}
-
 const proPicStyle = {
   'border-radius': "50%",
-  'margin-bottom': "1em",
   'min-width': "100px"
+};
+
+const minorHeaderStyle = {
+  'color':"#303030",
+  'font-size': "1.5em",
+  'font-weight': "bold",
 };
 
 const pStyles = {
@@ -35,15 +35,17 @@ const IndexPage = () => {
   return (
     <div>
       <Layout pageTitle="Ashley Yetman's Portfolio" metaKeywords={metaKeywords} bNavbar={false}>
-        <h1 style={titleStyle}>Ashley Yetman</h1>
-        <br />
         <img src={profileImg} height="15%" width="15%" alt="Ashley Yetman" style={proPicStyle}/>
+        <p style={minorHeaderStyle}>
+          Hey, I'm Ashley. 
+        </p>
         <p style={pStyles}>
-          Hey there, my name is Ashley. 
-          <br /> 
-          I'm an IT Manager with a passion for coding and UX design.
+          An IT Manager with a passion for programming and UX design.
           <br /><br />
-          I am currently looking for new opportunties to branch out into a more technical role with coding.
+          My technical experience ranges from using <strong>JavaScript</strong> in frontend frameworks, as well as backend <strong>Node</strong> web servers,
+          through to maintaining end user hardware and managing <strong>G Suite</strong> for my current employer. 
+          <br /><br />
+          I am currently looking for new opportunties to branch out into a more technical programming focused role.
         </p>
         <br />
         <p style={{'color': '#505050'}}>My portfolio is currently under development, in the mean time please checkout the links below:</p>
