@@ -36,9 +36,9 @@ const IndexPage = () => {
     <div>
       <Layout pageTitle="Ashley Yetman's Portfolio" metaKeywords={metaKeywords} bNavbar={false}>
         <img src={profileImg} height="15%" width="15%" alt="Ashley Yetman" style={proPicStyle}/>
-        <p style={minorHeaderStyle}>
+        <h1 style={minorHeaderStyle}>
           Hey, I'm Ashley. 
-        </p>
+        </h1>
         <p style={pStyles}>
           An IT Manager with a passion for programming and UX design.
           <br /><br />
