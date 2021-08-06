@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Contact from '../components/contact';
 import Layout from '../components/layout';
 
 const metaKeywords = [
@@ -16,6 +17,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Contact Ashley" metaKeywords={metaKeywords}>
       <p>Contact Form Coming Soon!</p>
+      <Contact></Contact>
     </Layout>
   )
 };
