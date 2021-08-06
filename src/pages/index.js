@@ -34,13 +34,7 @@ const imgButtonStyles = {
 const IndexPage = () => {
   return (
     <div>
-<<<<<<< HEAD
-      <Layout pageTitle="Ashley Yetman's Portfolio" metaKeywords={metaKeywords} bNavbar={false}>
-=======
       <Layout pageTitle="Ashley Yetman's Portfolio" metaKeywords={metaKeywords} bNavbar={true}>
-        <h1 style={titleStyle}>Ashley Yetman</h1>
-        <br />
->>>>>>> Remove 'about' from navbar and turn on navbar.
         <img src={profileImg} height="15%" width="15%" alt="Ashley Yetman" style={proPicStyle}/>
         <h1 style={minorHeaderStyle}>
           Hey, I'm Ashley. 
