@@ -1,8 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 import profileImg from '../images/ashley-150.jpg';
-import gitHubImg from '../images/github-64px.png';
-import linkedInImg from '../images/linkedin-64.png';
+import gitHubImg from '../images/github-48px.png';
 
 const metaKeywords = [
   "ashley yetman", 
@@ -48,10 +47,9 @@ const IndexPage = () => {
           I am currently looking for new opportunties to branch out into a more technical programming focused role.
         </p>
         <br />
-        <p style={{'color': '#505050'}}>My portfolio is currently under development, in the mean time please checkout the links below:</p>
+        <p style={{'color': '#505050'}}>My portfolio is currently under development, in the mean time please checkout my GitHub below:</p>
         <p>
           <a href="https://github.com/Alchamyst"><img src={gitHubImg} height="6%" width="6%" alt="Alchamyst GitHub Page" style={imgButtonStyles} /></a>
-          <a href="https://www.linkedin.com/in/ashley-yetman/"><img src={linkedInImg} height="6%" width="6%" alt="Ashley Yetman LinkedIn Page" style={imgButtonStyles} /></a>
         </p>
       </Layout>
     </div>
