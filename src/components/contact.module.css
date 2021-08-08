@@ -1,3 +1,78 @@
-.contact {
-    background-color: fuchsia;
+.contactForm {
+    /* background-color: lime; */
+    border-radius: 2%;
+    width: 100%;
+}
+
+.contactWrapper {
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    padding-top: 0.25em;
+    width: 80% 
+}
+
+.formHeading {
+    color:#303030;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.formInfo {
+    color:#505050;
+    font-size: 1em;
+}
+
+.formInput {
+    height: 2.5em;
+}
+
+
+.formSubmitBtn {
+    border: 1px solid #505050;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+}
+
+.formTextArea {
+    max-height: 25em;
+    min-height: 10em;
+    resize: vertical;
+}
+
+.formInput, .formTextArea {
+    border: 1px solid #505050;
+    border-radius: 4px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    max-width: 480px;
+    width: 85%
+}
+
+.formInput::placeholder, .formTextArea::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .formInput, .formTextArea {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contactWrapper {
+        width: 90%;
+    }
 }
