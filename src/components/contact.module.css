@@ -5,7 +5,7 @@
 }
 
 .contactWrapper {
-    background-color: #E0E0E0;
+    /* background-color: #E0E0E0; */
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -31,13 +31,25 @@
 
 
 .formSubmitBtn {
-    border: 1px solid #505050;
+    background-color: #F0F0F0;
+    border: 2px solid #505050;
     border-radius: 4px;
+    color:#303030;
+    cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    font-weight: bold;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    padding: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+}
+
+.formSubmitBtn:hover {
+    border: 2px solid #400880;
+    color:#400880;
 }
 
 .formTextArea {
@@ -63,6 +75,11 @@
 .formInput::placeholder, .formTextArea::placeholder {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    padding-left: 0.5em;
+}
+
+.formTextArea::placeholder {
+    padding-top: 0.5em;
 }
 
 @media only screen and (max-width: 600px) {
