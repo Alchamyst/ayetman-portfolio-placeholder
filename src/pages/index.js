@@ -22,36 +22,45 @@ const minorHeaderStyle = {
 };
 
 const pStyles = {
-  'text-align': 'center'
+  'text-align': 'center',
+  'font-family': 'Lexend',
 }
 
 const imgButtonStyles = {
   'padding-left': "1em",
   'padding-right': "1em",
-  'min-width': "40px"
+  'min-width': "40px",
+  'min-height': "40px",
+  'max-width': "64px",
+  'max-height': "64px",
 };
 
 const IndexPage = () => {
   return (
     <div>
       <Layout pageTitle="Ashley Yetman's Portfolio" metaKeywords={metaKeywords} bNavbar={false}>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet" />
+
         <img src={profileImg} height="15%" width="15%" alt="Ashley Yetman" style={proPicStyle}/>
         <h1 style={minorHeaderStyle}>
           Hey, I'm Ashley. 
         </h1>
         <p style={pStyles}>
-          An IT Manager with a passion for programming and UX design.
-          <br /><br />
-          My technical experience ranges from using <strong>JavaScript</strong> in frontend frameworks, as well as backend <strong>Node</strong> web servers,
-          through to maintaining end user hardware and managing <strong>G Suite</strong> for my current employer. 
-          <br /><br />
-          I am currently looking for new opportunties to branch out into a more technical programming focused role.
+          As a seasoned IT professional with recent expertise in PPC and SEO marketing, I've taken on various responsibilities.
+          This includes proficiently managing pay-per-click accounts, providing technical support for Google Workspace users and IT equipment within the organization, 
+          and consulting with clients to implement diverse tracking code solutions.
+          <br />
+          <br />
+          My programming skills have been a continuous focus, particularly in JavaScript, while delving into Node.js and React to stay aligned with the latest industry developments. 
+          My commitment to professional growth remains strong, with plans to master React with TypeScript on the horizon, further enhancing my skillset.
         </p>
         <br />
         <p style={{'color': '#505050'}}>My portfolio is currently under development, in the mean time please checkout the links below:</p>
         <p>
-          <a href="https://github.com/Alchamyst"><img src={gitHubImg} height="6%" width="6%" alt="Alchamyst GitHub Page" style={imgButtonStyles} /></a>
-          <a href="https://www.linkedin.com/in/ashley-yetman/"><img src={linkedInImg} height="6%" width="6%" alt="Ashley Yetman LinkedIn Page" style={imgButtonStyles} /></a>
+          <a href="https://github.com/Alchamyst"><img src={gitHubImg} height="6%" width="6%" alt="GitHub Logo" style={imgButtonStyles} /></a>
+          <a href="https://www.linkedin.com/in/ashley-yetman/"><img src={linkedInImg} height="6%" width="6%" alt="LinkedIn Logo" style={imgButtonStyles} /></a>
         </p>
       </Layout>
     </div>
