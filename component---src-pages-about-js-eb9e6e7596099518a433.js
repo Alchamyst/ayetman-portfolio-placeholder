@@ -1,2 +1,0 @@
-(self.webpackChunkashley_yetman_portfolio=self.webpackChunkashley_yetman_portfolio||[]).push([[682],{5518:function(e,t,a){"use strict";a.r(t);var l=a(7294),n=a(9832),o=["about ashley yetman","about alchamyst"];t.default=function(){return l.createElement(n.Z,{pageTitle:"About Me",metaKeywords:o},l.createElement("p",null,"Hi there!"))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-eb9e6e7596099518a433.js.map
