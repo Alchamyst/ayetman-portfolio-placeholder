@@ -57,7 +57,7 @@ const IndexPage = () => {
           My commitment to professional growth remains strong, with plans to master React with TypeScript on the horizon, further enhancing my skillset.
         </p>
         <br />
-        <p style={{'color': '#505050'}}>My portfolio is currently under development, in the mean time please checkout the links below:</p>
+        <p style={{'color': '#505050'}}>My portfolio is currently under development, in the mean time please visit the links below:</p>
         <p>
           <a href="https://github.com/Alchamyst"><img src={gitHubImg} height="6%" width="6%" alt="GitHub Logo" style={imgButtonStyles} /></a>
           <a href="https://www.linkedin.com/in/ashley-yetman/"><img src={linkedInImg} height="6%" width="6%" alt="LinkedIn Logo" style={imgButtonStyles} /></a>
